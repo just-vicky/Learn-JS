@@ -40,3 +40,11 @@ function threeGuest(){
   guestScore.textContent = count2
   
 }
+
+function reset() {
+  let count= 0
+  homeScore.textContent = count
+  guestScore.textContent = count
+  count1 = 0
+  count2 = 0
+}
